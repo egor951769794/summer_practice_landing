@@ -1,0 +1,14 @@
+.portfolio-container {
+    text-align: center;
+    padding-top: 110px;
+}
+
+.portfolio-h {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.portfolio-end_section {
+    padding-bottom: 47px;
+}

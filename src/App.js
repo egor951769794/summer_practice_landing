@@ -6,6 +6,8 @@ import Desc from './components/Desc/Desc';
 import About from './components/About/About';
 import Background from './components/Background/Background';
 import Skills from './components/Skills/Skills';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contacts from './components/Contacts/Contacts';
 
 function App() {
   return (
@@ -17,22 +19,11 @@ function App() {
         content={<Wrapper content={<About lang='en'></About>}></Wrapper>}>
       </Background>
       <Wrapper content={<Skills lang='en'></Skills>}></Wrapper>
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Background
+        color='#F6F6F6'
+        content={<Wrapper content={<Portfolio lang='en'></Portfolio>}></Wrapper>}
+      ></Background>
+      <Wrapper content={<Contacts lang='en'></Contacts>}></Wrapper>
     </div>
   );
 }

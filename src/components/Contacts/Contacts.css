@@ -1,0 +1,76 @@
+.contacts-container {
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 25px;
+}
+
+.contacts-h {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    padding-bottom: 22px;
+}
+
+.contacts-end_section {
+    padding-bottom: 47px;
+}
+
+.contacts-button {
+    color: white;
+    font-weight: bold;
+    background: #000; border-radius: 24px;
+    padding: 11px 32px 12px 32px;
+    transition: .25s;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+}
+
+.contacts-button:hover {
+    background-color: rgb(69, 69, 69);
+    transition: .25s;
+}
+
+.contacts-links_list {
+    display: flex;
+    flex-direction: row;
+    padding: 85px 0 45px 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 33%;
+    margin: auto;
+}
+
+.link {
+    padding: 0 32px;
+}
+
+.nograb {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+}
+
+
+.link:first-child {
+    padding-left: 0;
+}
+
+.link:last-child {
+    padding-right: 0;
+}
+
+.contacts-thin {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: medium;
+    color: #828282;
+    padding: 2px;
+}

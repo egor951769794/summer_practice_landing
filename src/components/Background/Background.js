@@ -5,7 +5,7 @@ export default function Background({content, color}) {
         }
         `
     return (
-        <div class='bg'>
+        <div className='bg'>
         <style>{css}</style>
         {content}
         </div>
