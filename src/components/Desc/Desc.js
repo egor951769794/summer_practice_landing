@@ -7,7 +7,7 @@ export default function Desc({lang, switcher}) {
     const text = translations[lang];
     return (
         <div>
-            <div className='top-flex'>
+            <div id='home' className='top-flex'>
                 <div>
                     <div className='author-name'>{text['denis-p1']}</div>
                     <div className='author-name'>{text['denis-p2']}</div>

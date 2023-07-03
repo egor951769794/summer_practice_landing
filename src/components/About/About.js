@@ -5,7 +5,7 @@ import translations from './translations';
 export default function About({lang}) {
     const text = translations[lang];
     return (
-        <div className='about-container'>
+        <div id='about' className='about-container'>
             <h2 className='about-h about-end_section'>{text['about']}</h2>
             <p className='about-p'>{text['about-p1']}</p>
             <p className='about-p about-end_section'>{text['about-p2']}</p>

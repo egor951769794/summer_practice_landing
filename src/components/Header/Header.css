@@ -8,13 +8,17 @@
 }
 
 .header-flex > * {
+    padding: 20px 50px;
+}
+
+.react-link {
     font-weight: bold;
     color: #828282;
     font-size: 20px;
-    padding: 20px 50px;
     transition: .25s;
 }
-.header-flex > *:hover {
+
+.react-link:hover {
     color: black;
     transition: .25s;
 }

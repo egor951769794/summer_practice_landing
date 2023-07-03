@@ -9,7 +9,7 @@ import ball from './../../svg/ball.svg'
 export default function Contacts({lang}) {
     const text = translations[lang];
     return (
-        <div className='contacts-container'>
+        <div id='contacts' className='contacts-container'>
             <h2 className='contacts-h'>{text['contacts']}</h2>
             <p className='contacts-p'>{text['contact-text-p1']}</p>
             <p className='contacts-p contacts-end_section'>{text['contact-text-p2']}</p>

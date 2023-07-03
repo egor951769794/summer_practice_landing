@@ -7,10 +7,14 @@ import Background from './components/Background/Background';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contacts from './components/Contacts/Contacts';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function App() {
   const [lang, setLang] = useState('ru');
+
+  useEffect(() => {
+    document.title = 'Portfolio page'
+  }, []);
 
   return (
     <div>

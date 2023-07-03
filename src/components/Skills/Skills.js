@@ -12,7 +12,7 @@ import translations from './translations';
 export default function({lang}) {
     const text = translations[lang];
     return (
-        <div className='skills-container'>
+        <div id='skills' className='skills-container'>
             <h2 className='skills-h skills-end_section'>{text['skills']}</h2>
             <p className='skills-p skills-end_section'>{text['techs']}</p>
             <ul className='progs-flex'>
