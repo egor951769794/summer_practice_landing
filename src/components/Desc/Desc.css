@@ -1,0 +1,63 @@
+.top-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.author-name {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+}
+
+.author-desc {
+    position: relative;
+    margin: auto;
+    left: -60px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.lang-switch {
+    transform: rotate(-90deg);
+    font-size: 17px;
+    font-weight: bold;
+    color: #828282;
+}
+
+.lang-switch-ru::before {
+    position: absolute;
+    content: "RU";
+    transform: translate(0px, -17px);
+}
+
+.lang-switch-line::before {
+    position: absolute;
+    content: "|";
+    margin-left: 25px;
+    transform: translate(0, -17px);
+}
+
+.lang-switch-en::before {
+    margin-left: 32px;
+    content: "ENG";
+    position: absolute;
+    transform: translate(0, -17px);
+}
+
+.bottom {
+    padding-bottom: 100px;
+}
+
+.bottom-photo {
+    width: 100%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+}
