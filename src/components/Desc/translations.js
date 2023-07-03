@@ -6,7 +6,7 @@ export default {
         'desc-p2' : '24 years old, Minsk'
     },
     'ru' : {
-        'denis-p2' : 'Дениc',
+        'denis-p1' : 'Дениc',
         'denis-p2' : 'Новик',
         'desc-p1' : 'UX | UI дизайнер',
         'desc-p2' : '24 года, Минск'

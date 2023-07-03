@@ -6,6 +6,11 @@
 .portfolio-case {
     width: 100%;
     padding-bottom: 44px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
 }
 
 .portfolio-desc {

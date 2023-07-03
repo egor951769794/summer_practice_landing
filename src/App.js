@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Wrapper from './components/Wrapper/Wrapper';
@@ -8,24 +7,25 @@ import Background from './components/Background/Background';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contacts from './components/Contacts/Contacts';
+import { useState } from 'react';
 
-function App() {
+export default function App() {
+  const [lang, setLang] = useState('ru');
+
   return (
     <div>
-      <Wrapper content={<Header lang='en'></Header>}></Wrapper>
-      <Wrapper content={<Desc lang='en'></Desc>}></Wrapper>
+      <Wrapper content={<Header lang={lang}></Header>}></Wrapper>
+      <Wrapper content={<Desc lang={lang} switcher={setLang}></Desc>}></Wrapper>
       <Background 
         color='#F6F6F6' 
-        content={<Wrapper content={<About lang='en'></About>}></Wrapper>}>
+        content={<Wrapper content={<About lang={lang}></About>}></Wrapper>}>
       </Background>
-      <Wrapper content={<Skills lang='en'></Skills>}></Wrapper>
+      <Wrapper content={<Skills lang={lang}></Skills>}></Wrapper>
       <Background
         color='#F6F6F6'
-        content={<Wrapper content={<Portfolio lang='en'></Portfolio>}></Wrapper>}
-      ></Background>
-      <Wrapper content={<Contacts lang='en'></Contacts>}></Wrapper>
+        content={<Wrapper content={<Portfolio lang={lang}></Portfolio>}></Wrapper>}
+      ></Background>  
+      <Wrapper content={<Contacts lang={lang}></Contacts>}></Wrapper>
     </div>
   );
 }
-
-export default App;

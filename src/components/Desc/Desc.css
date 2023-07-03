@@ -29,10 +29,15 @@
     color: #828282;
 }
 
+.lang-switch-line {
+    color: black;
+}
+
 .lang-switch-ru::before {
     position: absolute;
     content: "RU";
     transform: translate(0px, -17px);
+    cursor: pointer;
 }
 
 .lang-switch-line::before {
@@ -47,6 +52,7 @@
     content: "ENG";
     position: absolute;
     transform: translate(0, -17px);
+    cursor: pointer;
 }
 
 .bottom {
@@ -60,4 +66,18 @@
     -moz-user-drag: none;
     -o-user-drag: none;
     user-select: none;
+}
+
+.switch-selected::before {
+    color: black;
+}
+
+.lang-switch-en:hover::before {
+    color: black;
+    transition: .25s;
+}
+
+.lang-switch-ru:hover::before {
+    color: black;
+    transition: .25s;
 }
