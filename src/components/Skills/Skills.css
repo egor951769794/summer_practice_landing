@@ -1,0 +1,59 @@
+.skills-container {
+    text-align: center;
+    padding-top: 91px;
+    padding-bottom: 110px;
+    align-items: center;
+    min-width: 250px;
+    margin: auto;
+}
+
+
+.skills-h {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.skills-p {
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 25px;
+}
+
+.skills-end_section {
+    padding-bottom: 68px;
+}
+
+.progs-flex {
+    display: flex;
+    flex-direction: row;
+    width: 78%;
+    margin: auto;
+    padding: 27px 0;
+    justify-content: space-between;
+}
+
+.tech {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+}
+
+.tech-end_section {
+    padding-bottom: 26px;
+}
+
+.tech-name {
+    font-size: 15px;
+    line-height: 18px;
+    width: 50%;
+    margin: auto;
+    color: #828282;
+    font-weight: bold;
+}
+
+.figma-quickfix {
+    padding-bottom: 44px;
+}

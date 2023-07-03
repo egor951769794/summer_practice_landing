@@ -1,0 +1,28 @@
+.about-container {
+    text-align: center;
+    padding: 110px 0;
+    align-items: center;
+    min-width: 250px;
+    margin: auto;
+}
+
+.about-h {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.about-p {
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 25px;
+}
+
+.about-end_section {
+    padding-bottom: 36px;
+}
+
+.about-tight {
+    max-width: 460px;
+    margin: auto;
+}
