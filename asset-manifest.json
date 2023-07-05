@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/summer_practice_landing/static/css/main.92da253a.css",
+    "main.js": "/summer_practice_landing/static/js/main.8a4438c7.js",
+    "static/media/main_ph.png": "/summer_practice_landing/static/media/main_ph.e117303440c018ea6caa.png",
+    "static/media/port_reebok.png": "/summer_practice_landing/static/media/port_reebok.556bf4021a35aa34518b.png",
+    "static/media/port_braun.png": "/summer_practice_landing/static/media/port_braun.982dc6fc026e3af0712a.png",
+    "static/media/port_onlineshop.png": "/summer_practice_landing/static/media/port_onlineshop.3f89ae50fe9b85e5c6dd.png",
+    "static/media/Gilroy-Medium.ttf": "/summer_practice_landing/static/media/Gilroy-Medium.1c23f810e531d0702f76.ttf",
+    "static/media/Gilroy-Bold.ttf": "/summer_practice_landing/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
+    "static/media/ball.svg": "/summer_practice_landing/static/media/ball.17a35942f63cb872857c436cfae0a5ce.svg",
+    "static/media/ps.svg": "/summer_practice_landing/static/media/ps.8777c2365702366cbc94efe70eca1192.svg",
+    "static/media/be.svg": "/summer_practice_landing/static/media/be.4b8558c02e96e1347a9ae880bbad6604.svg",
+    "static/media/ae.svg": "/summer_practice_landing/static/media/ae.eb0b80283bc778cc956d89d31098262f.svg",
+    "static/media/ai.svg": "/summer_practice_landing/static/media/ai.8e241099f802282249b9da02a31c2141.svg",
+    "static/media/inst.svg": "/summer_practice_landing/static/media/inst.5fc9d738e4096f5ad905fd8ecf8fc316.svg",
+    "static/media/fig.svg": "/summer_practice_landing/static/media/fig.c03def6babe0ddc1547f319997ee7eaa.svg",
+    "static/media/in.svg": "/summer_practice_landing/static/media/in.718cd3fb7b6226964315f30b8d753c0e.svg",
+    "static/media/star_black.svg": "/summer_practice_landing/static/media/star_black.b5981b0f2ad64c6a16ebf9746758ab02.svg",
+    "static/media/star_empty.svg": "/summer_practice_landing/static/media/star_empty.7ef400d5d3eb6291271329278643ab02.svg",
+    "index.html": "/summer_practice_landing/index.html",
+    "main.92da253a.css.map": "/summer_practice_landing/static/css/main.92da253a.css.map",
+    "main.8a4438c7.js.map": "/summer_practice_landing/static/js/main.8a4438c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92da253a.css",
+    "static/js/main.8a4438c7.js"
+  ]
+}
